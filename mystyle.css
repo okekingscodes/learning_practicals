@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav img{
+    width: 50px;
+    display: flex;
+    margin: 0px;
+}
+ul li{
+    float: right;
+    list-style: none;
+
+}
+ul li a{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin: 15px;
+}
+nav{
+    background-image: linear-gradient(rgba(6,9,40,0.7),rgba(6,9,40,0.7)),url(images/b.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    padding: 50px;
+    margin-top: 0;
+    height: 50vh;
+}
+.cover-page h2{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.cover-page p{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+.cover-page button{
+    border-width: 3px;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 600px;
+    margin-top: 25px;
+}
+.cover-page button a{
+    text-decoration: none;
+    color: #fff;
+}
+.cover-page button:hover{
+    color: #fff;
+    background: #087fee;
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+.skill-line{
+    width: 600px;
+    background: #626262;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+#skill-line-html{
+    width: 595px;
+    background: rgb(235, 6, 6);
+    color: #fff;
+    margin: 5px 0;
+}
+#skill-line-css{
+    width: 450px;
+    background: chocolate;
+    color: #fff;
+    margin: 5px 0;
+}
+#skill-line-js{
+    width: 300px;
+    background: #9a9458;
+    color: #fff;
+    margin: 5px 0;
+}
+#skill-line-php{
+    width: 200px;
+    background: rgb(45, 108, 190);
+    color: #fff;
+    margin: 5px 0;
+}
+.img img{
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+}
+.our-services{
+    margin: 50px 150px;
+}
+.col-1{
+    align-items: center;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background: #f5f3f3;
+    border-radius: 8px;
+}
+.col-1:hover{
+background: rgb(2, 98, 207);
+color: #fff;
+}
+.our-services .col-1 h3{
+    text-align: center;
+    padding: 5px;
+}
+.col-1 p{
+font-size: 18px;
+text-align: center;
+padding: 10px;
+}
+.col-1 img{
+width: 150px;
+height: 100px;
+border-radius: 50%;
+margin: 5px 80px;
+}
+
+.col-2{
+    align-items: center;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background: #f5f3f3;
+    border-radius: 8px;
+}
+.col-2 img{
+    width: 270px;
+    border-radius: 5PX;
+    margin: 5px 18px;
+    border-color: #000;
+}
+.col-2 p{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.our-services .col-2 h3{
+    text-align: center;
+    padding: 5px;
+}
+.about{
+margin-top: 400px;
+}
+.about p{
+    margin: 10px 120px;
+}
+.contacts{
+margin-top: 500px;
+margin-left: 400px;
+width: 700px;
+padding: 30px 30px;
+}
+.contacts p{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    margin-top: 15px;
+}
+.contacts h1{
+    text-align: left;
+}
+.contacts input{
+    padding: 10px;
+border-radius: 5px;
+width: 350px;
+}
+.contacts textarea{
+width: 350px;
+padding: 10px;
+height: 100px;
+}
+.contacts button{
+background: rgb(2, 98, 207);
+padding: 10px;
+border-radius: 5px;
+margin-top: 10px;
+}
+.contacts button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+footer{
+text-align: center;
+color: #fff;
+background: #000;
+padding: 10px;
+margin-top: 20px;
+}
+
